@@ -1,0 +1,1 @@
+{"name":"osteporten-arbejdskopi","private":true,"type":"module","dependencies":{"@vercel/blob":"2.8.2","iron-session":"9.0.1"},"scripts":{"test":"node --test tests/*.test.js"}}

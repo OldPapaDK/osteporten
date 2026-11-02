@@ -1,0 +1,74 @@
+[
+  {
+    "key": "hours",
+    "label": "Åbningstider øverst"
+  },
+  {
+    "key": "orderTitle",
+    "label": "Overskrift over bestilling"
+  },
+  {
+    "key": "orderNotice",
+    "label": "Besked om bestillinger"
+  },
+  {
+    "key": "sandwichText",
+    "label": "Beskrivelse af sandwich"
+  },
+  {
+    "key": "sandwichNotice",
+    "label": "Besked under sandwich"
+  },
+  {
+    "key": "tapasDeadline",
+    "label": "Bestillingsfrist for tapas"
+  },
+  {
+    "key": "tapasText",
+    "label": "Beskrivelse af tapas"
+  },
+  {
+    "key": "tapasNotice",
+    "label": "Besked under tapas"
+  },
+  {
+    "key": "partyTitle",
+    "label": "Overskrift om selskaber"
+  },
+  {
+    "key": "partyText",
+    "label": "Tekst om selskaber"
+  },
+  {
+    "key": "welcome",
+    "label": "Velkomsttekst"
+  },
+  {
+    "key": "selection",
+    "label": "Et stort udvalg"
+  },
+  {
+    "key": "quality",
+    "label": "Kvalitet fra hele Europa"
+  },
+  {
+    "key": "experience",
+    "label": "Den gode butiksoplevelse"
+  },
+  {
+    "key": "contact",
+    "label": "Kontakttekst"
+  },
+  {
+    "key": "mailNotice",
+    "label": "Besked om mail"
+  },
+  {
+    "key": "phoneNotice",
+    "label": "Telefon og besøg"
+  },
+  {
+    "key": "footerHours",
+    "label": "Åbningstider nederst"
+  }
+]

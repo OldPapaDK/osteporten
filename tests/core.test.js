@@ -1,0 +1,6 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';
+import {hashPassword,verifyPassword,validDate,available,validateSettings,today} from '../lib/core.js';
+test('passwords are salted and verified',()=>{const h=hashPassword('test-password-123');assert(verifyPassword('test-password-123',h));assert(!verifyPassword('wrong',h));assert.notEqual(h,hashPassword('test-password-123'));});
+test('rejects invalid and normalized dates',()=>{assert(validDate('2028-02-29'));for(const d of ['2027-02-29','2027-02-30','2027-13-01','x','2027-1-1'])assert(!validDate(d));});
+test('blocks each product separately, current day and past',()=>{const s={blocked:{tapas:['2099-01-01'],sandwich:[]}};assert(!available(s,'tapas','2099-01-01'));assert(available(s,'sandwich','2099-01-01'));assert(!available(s,'sandwich',today()));assert(!available(s,'sandwich','2000-01-01'));assert(!available(s,'other','2099-01-01'));s.blocked.tapas=[];assert(available(s,'tapas','2099-01-01'));});
+test('settings validate all dates, deduplicate and retain plain text',()=>{const b={texts:{title:'<script>text</script>'},blocked:{tapas:['2099-01-01','2099-01-01'],sandwich:[]}};assert.equal(validateSettings(b,{title:''}).blocked.tapas.length,1);b.blocked.sandwich=['2027-02-30'];assert.throws(()=>validateSettings(b,{title:''}));});

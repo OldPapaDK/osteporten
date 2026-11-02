@@ -1,11 +1,9 @@
-# Osteporten arbejdskopi
+# Osteporten administration
 
-Selvstændig statisk kopi af de fem offentlige sider på osteporten.dk, hentet 2. november 2026 med medejerens tilladelse.
+Admin: `/admin/`, brugernavn `admin`. Login beskyttes på serveren med scrypt, krypteret HttpOnly session, afsenderkontrol og vedvarende begrænsning på loginforsøg. Første adgangskode og sessionsnøgle sættes som ADMIN_PASSWORD_HASH og SESSION_SECRET i Vercel. Ingen adgangskoder i koden. Adgangskoden kan ændres fra admin og logger eksisterende sessioner ud.
 
-Indeholder forside, butikken, sandwichbestilling, tapasbestilling og privatlivspolitik. Design, tekster, billeder og menuer er bevaret. Formularer er isolerede tests og sender eller gemmer ingen oplysninger. Originale WordPress scripts, analyseværktøjer og eksterne formularforbindelser er fjernet. Siden er markeret noindex.
+Forsidetekster og separate lukkedatoer for tapas/sandwich gemmes i privat Vercel Blob. Alle gemninger bruger versionskontrol og betinget skrivning. Lukkede datoer kontrolleres på serveren ved afprøvning. Formularerne er fortsat test og sender ingen bestillinger. Datoer i dag henvises til telefon som angivet på originalen; åbningstider er ikke automatisk lukning af ugedage.
 
-Vercel: framework Other, ingen buildkommando, outputmappe `dist`.
+Bevar `dist/` og `api/` som de aktuelle kildefiler. Den oprindelige `build.py` er en historisk kopieringsfunktion og skal tilpasses før den bruges igen, da den overskriver de integrerede HTML sider.
 
-`dist/` indeholder den komplette side med lokale billeder, CSS og skrifttyper. `source-pages/` er de offentlige HTML snapshots. `build.py` bygger kopien igen med Python 3 og beautifulsoup4. Kør `python -m pip install -r requirements.txt` og `python build.py`. Til lokal visning: `python -m http.server 8000 --directory dist`.
-
-WordPress administration, ordrebehandling, mailudsendelse og kundedata indgår ikke. Den oprindelige hændelsesannonce om 24. oktober er bevaret som del af kopien, selvom datoen er passeret. Testmarkeringen bør bevares, indtil rigtig ordrebehandling er bygget.
+Kør `npm test` for kontrol af adgangskoder, datoer og indstillinger. Statisk output i `dist/`, Vercel Functions i `api/`. Alle ændringer skal bevare eksisterende billeder og fjernelsen af langbordsspisning.
