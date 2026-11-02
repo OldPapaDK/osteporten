@@ -6,7 +6,7 @@ const refresh=async()=>{const r=await fetch('/api/site',{cache:'no-store'});if(!
 if(input){input.disabled=true;const hint=document.createElement('p');hint.id='calendar-status';hint.setAttribute('role','status');hint.style.cssText='font:15px/1.5 system-ui;color:#484f3c;padding:8px 0';hint.textContent='Henter ledige datoer …';input.after(hint);input.setAttribute('aria-describedby',hint.id);}
 try{
  await refresh();
- document.querySelectorAll('[data-cms-key]').forEach(el=>{const value=state.texts[el.dataset.cmsKey];if(typeof value==='string'&&value!==el.dataset.cmsDefault){el.textContent=value;el.style.whiteSpace='pre-line';}});
+ document.querySelectorAll('[data-cms-key]').forEach(el=>{const value=state.texts[el.dataset.cmsKey];if(el.hasAttribute('data-cms-hide-empty')&&typeof value==='string')el.hidden=!value.trim();if(typeof value==='string'&&value!==el.dataset.cmsDefault){el.textContent=value;el.style.whiteSpace='pre-line';}});
  if(input&&kind){input.disabled=false;picker=flatpickr(input,{locale:'da',dateFormat:'Y-m-d',altInput:true,altFormat:'j. F Y',disableMobile:true,minDate:today(),disable:[d=>{const date=flatpickr.formatDate(d,'Y-m-d');return date<=today()||state.blocked[kind].includes(date);}],onOpen:async()=>{try{await refresh();picker.redraw();}catch(e){document.getElementById('calendar-status').textContent=e.message;picker.close();}}});document.getElementById('calendar-status').textContent='Lukkede dage er grå og kan ikke vælges. Bestilling til i dag skal ske pr. telefon.';}
 }catch(e){if(input)document.getElementById('calendar-status').textContent=e.message;}
 window.osteCheckDate=async()=>{

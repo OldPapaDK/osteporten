@@ -70,5 +70,9 @@
   {
     "key": "footerHours",
     "label": "Åbningstider nederst"
+  },
+  {
+    "key": "tapasClosedNotice",
+    "label": "Tapasside: besked om lukkede bestillingsdage (tomt felt skjuler beskeden)"
   }
 ]
