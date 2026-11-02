@@ -1,0 +1,230 @@
+[
+  {
+    "id": "64667ac4e9bc41bb",
+    "src": "/assets/03c52d5c647f30535161.png",
+    "label": "Forside · Osteporten, logo",
+    "kind": "image"
+  },
+  {
+    "id": "3d5817d152c35a3e",
+    "src": "/assets/adfc596e3aa01e214012.jpg",
+    "label": "Forside · Stort udvalg af oste",
+    "kind": "image"
+  },
+  {
+    "id": "e032d1b33f325f61",
+    "src": "/assets/b2969043051c585717de.jpg",
+    "label": "Forside · Vareudvalg",
+    "kind": "image"
+  },
+  {
+    "id": "b59d97fdb5ae345f",
+    "src": "/assets/3cb1de324c246702d4ba.jpg",
+    "label": "Forside · Ejeren af Osteporten, Kurt Klindt",
+    "kind": "image"
+  },
+  {
+    "id": "0501c423f393158c",
+    "src": "/assets/40fe09ef511fb337bd72.jpg",
+    "label": "Forside · Billede 5",
+    "kind": "image"
+  },
+  {
+    "id": "f698458f823f5593",
+    "src": "/assets/6e7bce3db241819b47f3.jpg",
+    "label": "Forside · Billede 6",
+    "kind": "image"
+  },
+  {
+    "id": "917601210fff2aeb",
+    "src": "/assets/725044aab95b569e411d.jpg",
+    "label": "Forside · Baggrund 1",
+    "kind": "background"
+  },
+  {
+    "id": "ec337e84dec090a4",
+    "src": "/assets/ef801f043dea6fb1a070.jpg",
+    "label": "Forside · Baggrund 2",
+    "kind": "background"
+  },
+  {
+    "id": "f01168d4fb7f0a38",
+    "src": "/assets/fe960cb68b1d79949806.jpg",
+    "label": "Forside · Baggrund 3",
+    "kind": "background"
+  },
+  {
+    "id": "207552835f988ba2",
+    "src": "/assets/1b527d9d054a305a324f.jpg",
+    "label": "Forside · Baggrund 4",
+    "kind": "background"
+  },
+  {
+    "id": "d14269c25cfa4270",
+    "src": "/assets/52cf71cff9c84190120f.jpg",
+    "label": "Forside · Baggrund 5",
+    "kind": "background"
+  },
+  {
+    "id": "caf2ba3d8e1304b2",
+    "src": "/assets/acc508c1f2ece0194c10.webp",
+    "label": "Forside · Baggrund 6",
+    "kind": "background"
+  },
+  {
+    "id": "de0f8163c65e6c1c",
+    "src": "/assets/52f2af954c529bce0fbd.webp",
+    "label": "Forside · Baggrund 7",
+    "kind": "background"
+  },
+  {
+    "id": "940a1e4face691a5",
+    "src": "/assets/d29d0e5b55bf289aaf8f.jpg",
+    "label": "Forside · Baggrund 8",
+    "kind": "background"
+  },
+  {
+    "id": "8c56234ca028fd9a",
+    "src": "/assets/7430f13a867c832466e3.jpg",
+    "label": "Forside · Baggrund 9",
+    "kind": "background"
+  },
+  {
+    "id": "72d979ce3b962c9d",
+    "src": "/assets/c9afbd318f8fe32b5ca1.jpg",
+    "label": "Forside · Baggrund 10",
+    "kind": "background"
+  },
+  {
+    "id": "04ecd5d14ea4220b",
+    "src": "/assets/12f5ef5f3eeecdabcd77.png",
+    "label": "Sandwich · Bresaola sandwich",
+    "kind": "image"
+  },
+  {
+    "id": "c3eb96e763f19fa9",
+    "src": "/assets/bd793c5e8b127205dfc1.png",
+    "label": "Sandwich · Sandwich med serranoskinke",
+    "kind": "image"
+  },
+  {
+    "id": "5dd4a689fe778860",
+    "src": "/assets/c5415d54eb5849d61c67.png",
+    "label": "Sandwich · Coppa sandwich",
+    "kind": "image"
+  },
+  {
+    "id": "48bedb4abcae163b",
+    "src": "/assets/17bee95706e0c0fb9cb9.png",
+    "label": "Sandwich · Skinke sandwich",
+    "kind": "image"
+  },
+  {
+    "id": "424cb816434303f7",
+    "src": "/assets/60a7c0d40b725465f48d.png",
+    "label": "Sandwich · Sandwich med kyllingpaté",
+    "kind": "image"
+  },
+  {
+    "id": "f7c992e8ae990685",
+    "src": "/assets/fb8348ec0083675e76b0.png",
+    "label": "Sandwich · Vegetarsandwich",
+    "kind": "image"
+  },
+  {
+    "id": "40f51e14d2ac5e4d",
+    "src": "/assets/7dcbbbbfaae0693e38c3.jpg",
+    "label": "Sandwich · Baggrund 1",
+    "kind": "background"
+  },
+  {
+    "id": "70fd47f711853c9b",
+    "src": "/assets/faccb6f54c53c3a74096.jpg",
+    "label": "Sandwich · Baggrund 2",
+    "kind": "background"
+  },
+  {
+    "id": "25935da13dc223a1",
+    "src": "/assets/2347421022b110f6b270.jpg",
+    "label": "Sandwich · Baggrund 3",
+    "kind": "background"
+  },
+  {
+    "id": "a7dfb29ddcd3930a",
+    "src": "/assets/13ff34e971e78e887bf3.webp",
+    "label": "Butikken · Billede 26",
+    "kind": "image"
+  },
+  {
+    "id": "6a3d09bae3a6ef07",
+    "src": "/assets/d9df5e16ae455a43204c.jpg",
+    "label": "Butikken · Tapasanretning",
+    "kind": "image"
+  },
+  {
+    "id": "b89e668022e0385d",
+    "src": "/assets/b31d234ed943a68979a5.jpg",
+    "label": "Butikken · Et billede af Arla Unika udvalget",
+    "kind": "image"
+  },
+  {
+    "id": "7508b92fe664f5c0",
+    "src": "/assets/1876613139693994b0cf.jpg",
+    "label": "Butikken · Ejeren af Osteporten, Kurt Klindt",
+    "kind": "image"
+  },
+  {
+    "id": "b5ef1ee961f39c9b",
+    "src": "/assets/c8ac9a386b979cbbde87.webp",
+    "label": "Butikken · Baggrund 1",
+    "kind": "background"
+  },
+  {
+    "id": "ce34b9d22a6175ba",
+    "src": "/assets/5996e8be4dc6ab8631ab.png",
+    "label": "Tapas · Tapas",
+    "kind": "image"
+  },
+  {
+    "id": "c367bd8b63321137",
+    "src": "/assets/5d0b9cb31365d9a2e02a.png",
+    "label": "Tapas · Tapas",
+    "kind": "image"
+  },
+  {
+    "id": "fa677e0b85b8beb5",
+    "src": "/assets/944c4c5399880aba1417.png",
+    "label": "Tapas · Tapas",
+    "kind": "image"
+  },
+  {
+    "id": "5999d110bc8d46d6",
+    "src": "/assets/64a196e08cca585b0930.png",
+    "label": "Tapas · Billede 34",
+    "kind": "image"
+  },
+  {
+    "id": "d312bcef7bfc53de",
+    "src": "/assets/217f7b6087b4aa84f016.jpg",
+    "label": "Tapas · Baggrund 1",
+    "kind": "background"
+  },
+  {
+    "id": "715e20a68db3cd31",
+    "src": "/assets/092dc585ec97717d3c8b.jpg",
+    "label": "Tapas · Baggrund 2",
+    "kind": "background"
+  },
+  {
+    "id": "9e12860c665755f1",
+    "src": "/assets/a771b9bb47a551264e5e.jpg",
+    "label": "Tapas · Baggrund 3",
+    "kind": "background"
+  },
+  {
+    "id": "016d8116b05962da",
+    "src": "/assets/3e8b83a6dc5f00f4d178.jpg",
+    "label": "Tapas · Baggrund 4",
+    "kind": "background"
+  }
+]

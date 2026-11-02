@@ -1,0 +1,4 @@
+import {get} from '@vercel/blob';
+import {readState} from '../lib/store.js';
+import {validateImages} from '../lib/images.js';
+export default async function handler(req,res){res.setHeader('Cache-Control','private, no-store');res.setHeader('X-Content-Type-Options','nosniff');if(req.method!=='GET')return res.status(405).end();try{const {data}=await readState();const paths=validateImages(data.images);const path=paths[req.query.id];if(!path)return res.status(404).end();const result=await get(path,{access:'private',useCache:false});if(!result||result.statusCode!==200)return res.status(404).end();const types={jpg:'image/jpeg',png:'image/png',webp:'image/webp',gif:'image/gif'};res.setHeader('Content-Type',types[path.split('.').pop()]);res.setHeader('Content-Disposition','inline');res.send(Buffer.from(await new Response(result.stream).arrayBuffer()));}catch{res.status(503).end();}}
